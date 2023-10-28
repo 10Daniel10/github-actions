@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping("/user")
     public String test(){
-        return "Hola Java!...";
+        return "Hi Java!...";
     }
 }
